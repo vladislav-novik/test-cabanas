@@ -1,0 +1,14 @@
+.clear {
+    border: none;
+    background-color: #fff;
+    
+    cursor: pointer;
+    
+    color: #1ab6ff;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
+    &:focus, &.active {
+        outline: none;
+    }
+}

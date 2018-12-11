@@ -1,0 +1,38 @@
+.container {
+    i {
+        font-size: 1.4rem;
+        color: #1ab6ff;
+    }
+
+    button {
+        position: relative;
+        
+        cursor: pointer;
+
+        margin-left: 5px;
+
+        border: none;
+
+        background-color: #fff;
+        
+        color: #1ab6ff;
+        font-size: 1.25rem;
+
+        &:after {
+            content: '';
+
+            position: absolute;
+
+            top: calc(50% - 2px);
+            right: -10px;
+
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+            border-top: 10px solid #1ab6ff;
+        }
+
+        &:focus, &:active {
+            outline: none;
+        }
+    }
+}

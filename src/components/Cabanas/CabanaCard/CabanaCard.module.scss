@@ -1,0 +1,41 @@
+.cabana {
+    max-width: 350px;
+    width: 350px;
+
+    .type {
+        color: #1ab6ff;
+        font-weight: 500;
+
+        text-transform: uppercase;
+    }
+
+    .address {
+        color: #a7a7a7;
+        font-size: 0.95rem;
+    }
+
+    .price {
+        font-size: 2rem;
+        line-height: 1.2;
+
+        color: #656363;
+    }
+
+    .oldPrice {
+        font-size: 0.8rem;
+        color: #a7a7a7;
+        text-transform: uppercase;
+        text-decoration: line-through; 
+    }
+
+    .guests {
+        color: #a7a7a7;
+        font-size: 0.8rem;
+
+        text-transform: uppercase;
+    }
+
+    .green {
+        color: #3bb09f;
+    }
+}

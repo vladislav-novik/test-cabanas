@@ -1,0 +1,26 @@
+.type {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px 15px;
+
+    cursor: pointer;
+
+    border: 1px solid #1ab6ff;
+    border-radius: 8px;
+
+    background-color: #fff;
+    
+    font-size: 1.05rem;
+    color: #1ab6ff;
+    text-transform: uppercase;
+
+    &:hover {
+        border-color: #a7a7a7;
+        color: #a7a7a7;
+    }
+    
+    &:focus, &:active {
+        outline: none;
+    }
+}

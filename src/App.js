@@ -12,7 +12,7 @@ import {
 class App extends Component {
   render() {
     return (
-      <div className="container-fluid" style={{maxWidth: '1300px'}}>
+      <div className="container-fluid">
         <Header />
         <div className="container">
           <Filters />

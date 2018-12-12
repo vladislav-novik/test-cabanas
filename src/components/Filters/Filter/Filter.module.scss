@@ -1,7 +1,7 @@
 .container {
     i {
-        font-size: 1.4rem;
-        color: #1ab6ff;
+        font-size: 1.12rem;
+        color: #256DC5;
     }
 
     button {
@@ -15,8 +15,9 @@
 
         background-color: #fff;
         
-        color: #1ab6ff;
+        color: #256DC5;
         font-size: 1.25rem;
+        font-family: 'Didot', sans-serif;
 
         &:after {
             content: '';
@@ -26,9 +27,9 @@
             top: calc(50% - 2px);
             right: -10px;
 
-            border-left: 6px solid transparent;
-            border-right: 6px solid transparent;
-            border-top: 10px solid #1ab6ff;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 8px solid #256DC5;
         }
 
         &:focus, &:active {

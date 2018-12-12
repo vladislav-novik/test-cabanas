@@ -7,7 +7,7 @@ import ListLinks from './ListLinks';
 import { footerContent } from '../../utils/constant';
 
 const Footer = () => (
-  <footer>
+  <footer className="footer">
     <div className="text-center text-md-left d-flex">
         <div className="col align-self-center">
           <Logo />

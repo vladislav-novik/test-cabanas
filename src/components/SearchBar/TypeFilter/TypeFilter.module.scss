@@ -2,22 +2,24 @@
     display: flex;
     justify-content: space-between;
 
-    padding: 5px 15px;
+    padding: 8px 20px;
 
     cursor: pointer;
 
-    border: 1px solid #1ab6ff;
+    border: 1px solid #256DC5;
     border-radius: 8px;
 
     background-color: #fff;
     
-    font-size: 1.05rem;
-    color: #1ab6ff;
+    font-size: .9375rem;
+    color: #256DC5;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    transition: .25s;
 
     &:hover {
-        border-color: #a7a7a7;
-        color: #a7a7a7;
+        border-color: #BFBFBF;
+        color: #BFBFBF;
     }
     
     &:focus, &:active {

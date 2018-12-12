@@ -3,7 +3,7 @@ import CabanaCard from '../CabanaCard';
 
 const getCabanas = (cabanas) => {
     return (
-        <div className="card-deck m-0 justify-content-between">
+        <div className="card-deck justify-content-between">
             {
                 cabanas.map(cabana => <CabanaCard key={cabana.id} cabana={cabana} />)
             }

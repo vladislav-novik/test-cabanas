@@ -5,10 +5,12 @@ import image from '../../../images/cabana.jpg';
 import styles from './CabanaCard.module.scss';
 
 const CabanaCard = ({ cabana }) => (
-    <div className={`mb-4 ${styles.cabana}`}>
-        <img className="card-img-top" src={image} alt="Cabana" />
+    <div className={`col-md-4 ${styles.cabana}`}>
+        <div className={styles.pic}>
+            <img className="card-img-top" src={image} alt="Cabana" />
+        </div>
         <div className="card-body py-1 px-0">
-            <h5 className="card-title mb-1">{cabana.title}</h5>
+            <h5 className={styles.title}>{cabana.title}</h5>
             <div className="d-flex justify-content-between align-items-center">
                 <div>
                     <div className={styles.type}>{cabana.type}</div>

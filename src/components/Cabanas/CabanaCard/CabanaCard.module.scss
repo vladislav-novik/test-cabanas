@@ -1,24 +1,44 @@
 .cabana {
-    max-width: 350px;
-    width: 350px;
+    margin-bottom: 2.3rem;
+
+    .pic {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 56%;
+        margin-bottom: .25rem;
+        overflow: hidden;
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            max-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+        }
+    }
 
     .type {
-        color: #1ab6ff;
-        font-weight: 500;
-
+        margin-bottom: .4rem;
+        color: #256DC5;
+        font-size: .9375rem;
+        font-weight: normal;
         text-transform: uppercase;
+        font-family: 'Oswald', sans-serif;
     }
 
     .address {
-        color: #a7a7a7;
-        font-size: 0.95rem;
+        margin-top: .3rem;
+        color: #ABABAB;
+        font-size: 0.875rem;
+        font-family: 'Lato', sans-serif;
     }
 
     .price {
         font-size: 2rem;
         line-height: 1.2;
-
-        color: #656363;
+        color: #656565;
     }
 
     .oldPrice {
@@ -29,13 +49,20 @@
     }
 
     .guests {
-        color: #a7a7a7;
-        font-size: 0.8rem;
-
+        color: #ABABAB;
+        font-size: 0.71875rem;
         text-transform: uppercase;
+        font-family: 'Lato', sans-serif;
     }
 
     .green {
-        color: #3bb09f;
+        color: #3BB09F;
+    }
+
+    .title {
+        margin-bottom: .3rem;
+        font-family: 'Didot', sans-serif;
+        font-size: 1.375rem;
+        color: #2D2D2D;
     }
 }

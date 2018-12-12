@@ -1,11 +1,11 @@
 .container {
     display: flex;
     
-    height: 35px;
+    height: 40px;
 
     border-radius: 20px;
 
-    background-color: #efefef;
+    background-color: #F6F6F6;
 
     input {
         border: none;
@@ -16,7 +16,8 @@
 
         background-color: transparent;
 
-        font-size: 0.8rem;
+        color: #888;
+        font-size: 0.9375rem;
     }
 
     button {
